@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    height: 250px;
+    background-color: red;
+    position: relative;
+}
+
+.header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.header-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text h1{
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.header-url{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header-url ul li{
+    display: inline-block;
+    color: white;
+    margin: 0 4px;
+}
+
+.header-url ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
